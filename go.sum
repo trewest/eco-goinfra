@@ -51,9 +51,9 @@ github.com/blang/semver v3.5.1+incompatible h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdn
 github.com/blang/semver v3.5.1+incompatible/go.mod h1:kRBLl5iJ+tD4TcOOxsy/0fnwebNt5EWlYSAyrTnjyyk=
 github.com/blang/semver/v4 v4.0.0 h1:1PFHFE6yCCTv8C1TeyNNarDzntLi7wMI5i/pzqYIsAM=
 github.com/blang/semver/v4 v4.0.0/go.mod h1:IbckMUScFkM3pff0VJDNKRiT6TG/YpiHIM2yvyW5YoQ=
-github.com/bshuster-repo/logrus-logstash-hook v0.4.1 h1:pgAtgj+A31JBVtEHu2uHuEx0n+2ukqUJnS2vVe5pQNA=
-github.com/bugsnag/bugsnag-go v1.5.3 h1:yeRUT3mUE13jL1tGwvoQsKdVbAsQx9AJ+fqahKveP04=
-github.com/bugsnag/panicwrap v1.2.0 h1:OzrKrRvXis8qEvOkfcxNcYbOd2O7xXS2nnKMEMABFQA=
+github.com/bshuster-repo/logrus-logstash-hook v1.0.2 h1:JYRWo+QGnQdedgshosug9hxpPYTB9oJ1ZZD3fY31alU=
+github.com/bugsnag/bugsnag-go v2.1.2+incompatible h1:E7dor84qzwUO8KdCM68CZwq9QOSR7HXlLx3Wj5vui2s=
+github.com/bugsnag/panicwrap v1.3.4 h1:A6sXFtDGsgU/4BLf5JT0o5uYg3EeKgGx3Sfs+/uk3pU=
 github.com/cenkalti/backoff v2.2.1+incompatible h1:tNowT99t7UNflLxfYYSlKYsBpXdEet03Pg2g16Swow4=
 github.com/cenkalti/backoff/v4 v4.2.1 h1:y4OZtCnogmCPw98Zjyt5a6+QwPLGkiQsYW5oUqylYbM=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
@@ -230,7 +230,7 @@ github.com/gobuffalo/packr/v2 v2.2.0/go.mod h1:CaAwI0GPIAv+5wKLtv8Afwl+Cm78K/I/V
 github.com/gobuffalo/syncx v0.0.0-20190224160051-33c29581e754/go.mod h1:HhnNqWY95UYwwW3uSASeV7vtgYkT2t16hJgV3AEPUpw=
 github.com/godbus/dbus v0.0.0-20181025153459-66d97aec3384/go.mod h1:/YcGZj5zSblfDWMMoOzV4fas9FZnQYTkDnsGvmh2Grw=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
-github.com/gofrs/uuid v3.3.0+incompatible h1:8K4tyRfvU1CYPgJsveYFQMhpFd/wXNM7iK6rR7UHz84=
+github.com/gofrs/uuid v4.2.0+incompatible h1:yyYWMnhkhrKwwr8gAOcOCYxOOscHgDS9yZgBrnJfGa0=
 github.com/gogo/protobuf v1.3.2 h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=
 github.com/gogo/protobuf v1.3.2/go.mod h1:P1XiOD3dCwIKUDQYPy72D8LYyHL2YPYrpS2s69NZV8Q=
 github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3 h1:zN2lZNZRflqFyxVaTIU61KNKQ9C0055u9CAfpmqUvo4=
@@ -485,8 +485,8 @@ github.com/openshift/custom-resource-status v1.1.3-0.20220503160415-f2fdb4999d87
 github.com/openshift/custom-resource-status v1.1.3-0.20220503160415-f2fdb4999d87/go.mod h1:DB/Mf2oTeiAmVVX1gN+NEqweonAPY0TKUwADizj8+ZA=
 github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298 h1:/CbENmI9HuJHd8N/h3eaUkqhHoQjj1BdwIGOF+X3wnM=
 github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298/go.mod h1:6dxhWPY3Wr/0b0eGrFpV7gcyeS+ne48Mo9OQ9dxrLNI=
-github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a h1:dLIHdqEHpmfzKdAmP0+xWUVAsXcJQxH0hlqDJgs169c=
-github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a/go.mod h1:XWo9dsulk75E9xkfxS/GNpJrL5UHgn3wuSyPeO39NME=
+github.com/openshift/hive/apis v0.0.0-20230316155509-0de24b83a6d7 h1:BMUBmgKgBzFcwR0wyhWR9GlHH5LeKXd4XPmdsaz2Pn0=
+github.com/openshift/hive/apis v0.0.0-20230316155509-0de24b83a6d7/go.mod h1:VIxA5HhvBmsqVn7aUVQYs004B9K4U5A+HrFwvRq2nK8=
 github.com/openshift/library-go v0.0.0-20231027143522-b8cd45d2d2c8 h1:5t2pHTyvfpy5xcKrLCj+6OITwIRdyH1CNG8Ob3vVJvc=
 github.com/openshift/library-go v0.0.0-20231027143522-b8cd45d2d2c8/go.mod h1:8UzmrBMCn7+GzouL8DVYkL9COBQTB1Ggd13/mHJQCUg=
 github.com/openshift/local-storage-operator v0.0.0-20240308014313-cc4f213cd7c8 h1:n2EBy49Z5khli3KZcGtpSOUJ/Mn++K3CWq9Np67mBv4=
@@ -564,6 +564,10 @@ github.com/spf13/pflag v1.0.6-0.20210604193023-d5e0c0615ace h1:9PNP1jnUjRhfmGMlk
 github.com/spf13/pflag v1.0.6-0.20210604193023-d5e0c0615ace/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/stoewer/go-strcase v1.2.0 h1:Z2iHWqGXH00XYgqDmNgQbIBxf3wrNq0F3feEy0ainaU=
 github.com/stoewer/go-strcase v1.2.0/go.mod h1:IBiWB2sKIp3wVVQ3Y035++gc+knqhUQag1KpM8ahLw8=
+github.com/stolostron/backplane-operator v0.0.0-20240312142246-5253735bcaa2 h1:L6uWswtVcMH65Rg3IMXntNEAS2KL2B4Ugev2guedh7o=
+github.com/stolostron/backplane-operator v0.0.0-20240312142246-5253735bcaa2/go.mod h1:Jt6m4y3lOBefQPBae6b3TEeLoVBgQ/HlLdgvIuZIES4=
+github.com/stolostron/multiclusterhub-operator v0.0.0-20240315174700-626b7491482f h1:dpIwj27a1EtrwJAAT1XbKTiuu/8gZpDHSk4Wbwmq+gc=
+github.com/stolostron/multiclusterhub-operator v0.0.0-20240315174700-626b7491482f/go.mod h1:11rFmKXG1Rs8D1L4Po9+pu4hMbGK8tuB22zQu7PnxYA=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
@@ -946,6 +950,8 @@ k8s.io/utils v0.0.0-20230726121419-3b25d923346b h1:sgn3ZU783SCgtaSJjpcVVlRqd6GSn
 k8s.io/utils v0.0.0-20230726121419-3b25d923346b/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
 maistra.io/api v0.0.0-20230704084350-dfc96815fb16 h1:Dg/R1GHZ03eUpOHSOmunttNQBmPcoyEUeaphd7OXCxk=
 maistra.io/api v0.0.0-20230704084350-dfc96815fb16/go.mod h1:Qx3biKVUIk8cdnVYyR9e5Vywsv2cpeo/0Ot0PpMAVT8=
+open-cluster-management.io/api v0.12.0 h1:sNkj4k2XyWA/GLsTiFg82bLIZ7JDZKkLLLyZjJUlJMs=
+open-cluster-management.io/api v0.12.0/go.mod h1:/CZhelEH+30/pX7vXGSZOzLMX0zvjthYOkT/5ZTzVTQ=
 open-cluster-management.io/governance-policy-propagator v0.12.0 h1:jwIsJKme9AjtU1e1OKbUU3ciok+nQ0VMe8YVkz8a00E=
 open-cluster-management.io/governance-policy-propagator v0.12.0/go.mod h1:NUrvYqTPwXdPWjcaaIeNRTM8XIEHTargv43kg14wksw=
 open-cluster-management.io/multicloud-operators-subscription v0.11.0 h1:OLpohu92lMEmWk4LriTyxD1SIJrzHOvuhS3UsnEOElk=

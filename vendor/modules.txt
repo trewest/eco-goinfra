@@ -590,8 +590,8 @@ github.com/openshift/custom-resource-status/conditions/v1
 # github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298
 ## explicit; go 1.17
 github.com/openshift/elasticsearch-operator/apis/logging/v1
-# github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a
-## explicit; go 1.18
+# github.com/openshift/hive/apis v0.0.0-20230316155509-0de24b83a6d7
+## explicit; go 1.20
 github.com/openshift/hive/apis/hive/v1
 github.com/openshift/hive/apis/hive/v1/agent
 github.com/openshift/hive/apis/hive/v1/alibabacloud
@@ -732,6 +732,12 @@ github.com/spf13/pflag
 # github.com/stoewer/go-strcase v1.2.0
 ## explicit; go 1.11
 github.com/stoewer/go-strcase
+# github.com/stolostron/backplane-operator v0.0.0-20240312142246-5253735bcaa2
+## explicit; go 1.20
+github.com/stolostron/backplane-operator/api/v1
+# github.com/stolostron/multiclusterhub-operator v0.0.0-20240315174700-626b7491482f
+## explicit; go 1.20
+github.com/stolostron/multiclusterhub-operator/api/v1
 # github.com/stretchr/testify v1.9.0
 ## explicit; go 1.17
 github.com/stretchr/testify/assert
@@ -1501,6 +1507,14 @@ k8s.io/utils/trace
 ## explicit; go 1.20
 maistra.io/api/core/v1
 maistra.io/api/core/v2
+# open-cluster-management.io/api v0.12.0
+## explicit; go 1.19
+open-cluster-management.io/api/client/cluster/clientset/versioned/scheme
+open-cluster-management.io/api/client/cluster/clientset/versioned/typed/cluster/v1
+open-cluster-management.io/api/cluster/v1
+open-cluster-management.io/api/cluster/v1alpha1
+open-cluster-management.io/api/cluster/v1beta1
+open-cluster-management.io/api/cluster/v1beta2
 # open-cluster-management.io/governance-policy-propagator v0.12.0
 ## explicit; go 1.20
 open-cluster-management.io/governance-policy-propagator/api/v1

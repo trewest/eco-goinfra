@@ -75,6 +75,9 @@ import (
 	nfdv1 "github.com/openshift/cluster-nfd-operator/api/v1"
 	lsoV1alpha1 "github.com/openshift/local-storage-operator/api/v1alpha1"
 	mcmV1Beta1 "github.com/rh-ecosystem-edge/kernel-module-management/api-hub/v1beta1"
+	backplanev1 "github.com/stolostron/backplane-operator/api/v1"
+	mchv1 "github.com/stolostron/multiclusterhub-operator/api/v1"
+	ocmclusterv1client "open-cluster-management.io/api/client/cluster/clientset/versioned/typed/cluster/v1"
 	policiesv1beta1 "open-cluster-management.io/governance-policy-propagator/api/v1beta1"
 	placementrulev1 "open-cluster-management.io/multicloud-operators-subscription/pkg/apis/apps/placementrule/v1"
 )
@@ -105,6 +108,7 @@ type Settings struct {
 	LocalVolumeInterface lsoV1alpha1.LocalVolumeSet
 	machinev1beta1client.MachineV1beta1Interface
 	storageV1Client.StorageV1Interface
+	ocmclusterv1client.ClusterV1Client
 }
 
 // New returns a *Settings with the given kubeconfig.
@@ -152,6 +156,7 @@ func New(kubeconfig string) *Settings {
 	clientSet.K8sCniCncfIoV1beta1Interface = multinetpolicyclientv1.NewForConfigOrDie(config)
 	clientSet.StorageV1Interface = storageV1Client.NewForConfigOrDie(config)
 	clientSet.K8sClient = kubernetes.NewForConfigOrDie(config)
+	clientSet.ClusterV1Client = ocmclusterv1client.NewForConfigOrDie(config)
 	clientSet.Config = config
 
 	crScheme := runtime.NewScheme()
@@ -291,6 +296,18 @@ func SetScheme(crScheme *runtime.Scheme) error {
 	}
 
 	if err := placementrulev1.AddToScheme(crScheme); err != nil {
+		return err
+	}
+
+	if err := backplanev1.AddToScheme(crScheme); err != nil {
+		return err
+	}
+
+	if err := mchv1.AddToScheme(crScheme); err != nil {
+		return err
+	}
+
+	if err := ocmclusterv1.AddToScheme(crScheme); err != nil {
 		return err
 	}
 

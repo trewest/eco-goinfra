@@ -21,13 +21,15 @@ require (
 	github.com/openshift/cluster-logging-operator v0.0.0-20240220162552-cbb65f2dca2b // release-5.8
 	github.com/openshift/cluster-nfd-operator v0.0.0-20231206145954-f49a827bf617
 	github.com/openshift/cluster-node-tuning-operator v0.0.0-20231225123609-e63d2c9626fe
-	github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a
+	github.com/openshift/hive/apis v0.0.0-20230316155509-0de24b83a6d7
 	github.com/openshift/local-storage-operator v0.0.0-20240308014313-cc4f213cd7c8 // release-4.15
 	github.com/openshift/machine-config-operator v0.0.1-0.20230807154212-886c5c3fc7a9
 	github.com/openshift/ptp-operator v0.0.0-20231220185604-29113b41981b
 	github.com/operator-framework/api v0.22.0
 	github.com/operator-framework/operator-lifecycle-manager v0.27.1-0.20240301195430-1d12f8f4de16
 	github.com/rh-ecosystem-edge/kernel-module-management v0.0.0-20240214075243-67ea06a82ab8
+	github.com/stolostron/backplane-operator v0.0.0-20240312142246-5253735bcaa2
+	github.com/stolostron/multiclusterhub-operator v0.0.0-20240315174700-626b7491482f
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
 	golang.org/x/net v0.20.0
 	gopkg.in/k8snetworkplumbingwg/multus-cni.v4 v4.0.2
@@ -49,6 +51,7 @@ require (
 	github.com/openshift/assisted-service/api v0.0.0
 	github.com/openshift/assisted-service/models v0.0.0
 	github.com/stretchr/testify v1.9.0
+	open-cluster-management.io/api v0.12.0
 )
 
 require (
