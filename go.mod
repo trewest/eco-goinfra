@@ -51,6 +51,7 @@ require (
 	github.com/openshift/assisted-service/models v0.0.0
 	github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298
 	github.com/red-hat-storage/ocs-operator v0.4.13
+	github.com/sirupsen/logrus v1.9.3
 	github.com/stmcginnis/gofish v0.15.0
 	github.com/stretchr/testify v1.9.0
 	github.com/vmware-tanzu/velero v1.12.1
@@ -168,6 +169,7 @@ require (
 	github.com/openshift/custom-resource-status v1.1.3-0.20220503160415-f2fdb4999d87 // indirect
 	github.com/openshift/library-go v0.0.0-20231027143522-b8cd45d2d2c8 // indirect
 	github.com/operator-framework/operator-registry v1.35.0 // indirect
+	github.com/otiai10/copy v1.14.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
@@ -180,8 +182,8 @@ require (
 	github.com/rook/rook/pkg/apis v0.0.0-20231215165123-32de0fb5f69b // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
+	github.com/samber/lo v1.39.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
 	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/pflag v1.0.6-0.20210604193023-d5e0c0615ace // indirect
@@ -192,6 +194,7 @@ require (
 	github.com/xlab/treeprint v1.2.0 // indirect
 	go.mongodb.org/mongo-driver v1.11.1 // indirect
 	go.starlark.net v0.0.0-20230525235612-a134d8f9ddca // indirect
+	go.uber.org/mock v0.4.0 // indirect
 	go4.org v0.0.0-20200104003542-c7e774b10ea0 // indirect
 	golang.org/x/mod v0.15.0 // indirect
 	golang.org/x/oauth2 v0.15.0 // indirect
