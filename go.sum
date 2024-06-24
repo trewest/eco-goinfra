@@ -1678,8 +1678,10 @@ github.com/openshift/custom-resource-status v1.1.3-0.20220503160415-f2fdb4999d87
 github.com/openshift/custom-resource-status v1.1.3-0.20220503160415-f2fdb4999d87/go.mod h1:DB/Mf2oTeiAmVVX1gN+NEqweonAPY0TKUwADizj8+ZA=
 github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298 h1:/CbENmI9HuJHd8N/h3eaUkqhHoQjj1BdwIGOF+X3wnM=
 github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298/go.mod h1:6dxhWPY3Wr/0b0eGrFpV7gcyeS+ne48Mo9OQ9dxrLNI=
-github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a h1:dLIHdqEHpmfzKdAmP0+xWUVAsXcJQxH0hlqDJgs169c=
-github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a/go.mod h1:XWo9dsulk75E9xkfxS/GNpJrL5UHgn3wuSyPeO39NME=
+github.com/openshift/hive/apis v0.0.0-20231220215202-ad99b9e52d27 h1:9C86viyQl7HE9yg7Gctgx803Oq6DbrCUAberyMVcWDE=
+github.com/openshift/hive/apis v0.0.0-20231220215202-ad99b9e52d27/go.mod h1:RRH8lt09SAiPECNdsbh7Gun0lkcRWi1nYKq6tDp5WxQ=
+github.com/openshift/image-based-install-operator v0.0.0-20240624104640-533552555b90 h1:+iBPe3lw40Fgy5gzpvGU3jnq0c/+um58D3vzeTVGKQQ=
+github.com/openshift/image-based-install-operator v0.0.0-20240624104640-533552555b90/go.mod h1:uSb/mFAJdUbH4ovMNNCu+bEyc0Au89Bsw/E81DL+FoQ=
 github.com/openshift/library-go v0.0.0-20240419113445-f1541d628746 h1:MyLp0GgPyIgeVd1scI0iUasVgd6Xpy/t04Rk+I23wRE=
 github.com/openshift/library-go v0.0.0-20240419113445-f1541d628746/go.mod h1:m/HsttSi90vSixwoy5mPUBHcZid2YRw/QbsLErLxF9s=
 github.com/openshift/local-storage-operator v0.0.0-20240422172451-2a80d7f6681d h1:mt3yAY6v+0YFik/wY79uwkvzBZvVoEIDDUj1Pu68dn0=

@@ -23,7 +23,7 @@ require (
 	github.com/openshift/cluster-logging-operator v0.0.0-20240606085930-750f369019d4 // release-5.8
 	github.com/openshift/cluster-nfd-operator v0.0.0-20240604082319-19bf50784aa7
 	github.com/openshift/cluster-node-tuning-operator v0.0.0-20240606084543-6d2e11aec345
-	github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a
+	github.com/openshift/hive/apis v0.0.0-20231220215202-ad99b9e52d27
 	github.com/openshift/local-storage-operator v0.0.0-20240422172451-2a80d7f6681d // release-4.16
 	github.com/openshift/machine-config-operator v0.0.1-0.20230811181556-63d7be1ef18b
 	github.com/openshift/ptp-operator v0.0.0-20240404165119-29a3d7b3d60b
@@ -222,6 +222,7 @@ require (
 
 require (
 	github.com/grafana/loki/operator/apis/loki v0.0.0-20240627192641-91a34868db61
+	github.com/openshift/image-based-install-operator v0.0.0-20240624104640-533552555b90
 	github.com/stolostron/klusterlet-addon-controller v0.0.0-20240606130554-01338045271a
 )
 
