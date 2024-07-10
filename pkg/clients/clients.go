@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/openshift-kni/eco-goinfra/pkg/argocd/argocdtypes"
+	ibiv1alpha1 "github.com/openshift-kni/eco-goinfra/pkg/hive/extensions/v1alpha1"
 	"github.com/openshift-kni/eco-goinfra/pkg/metallb/mlbtypes"
 	"github.com/openshift-kni/eco-goinfra/pkg/oadp/oadptypes"
 
@@ -411,6 +412,10 @@ func SetScheme(crScheme *runtime.Scheme) error {
 	}
 
 	if err := monv1.AddToScheme(crScheme); err != nil {
+		return err
+	}
+
+	if err := ibiv1alpha1.AddToScheme(crScheme); err != nil {
 		return err
 	}
 

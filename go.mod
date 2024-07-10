@@ -222,7 +222,6 @@ require (
 
 require (
 	github.com/grafana/loki/operator/apis/loki v0.0.0-20240627192641-91a34868db61
-	github.com/openshift/image-based-install-operator v0.0.0-20240624104640-533552555b90
 	github.com/stolostron/klusterlet-addon-controller v0.0.0-20240606130554-01338045271a
 )
 
@@ -243,6 +242,7 @@ replace (
 	github.com/openshift/assisted-service/api => github.com/openshift/assisted-service/api v0.0.0-20240529165317-6b26a25e2ae7 // release-4.16
 	github.com/openshift/assisted-service/models => github.com/openshift/assisted-service/models v0.0.0-20240529165317-6b26a25e2ae7 // release-4.16
 	github.com/openshift/client-go => github.com/openshift/client-go v0.0.1
+	github.com/openshift/hive/apis => github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a
 	github.com/portworx/sched-ops => github.com/portworx/sched-ops v1.20.4-rc1
 	k8s.io/api => k8s.io/api v0.29.4
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.29.4
