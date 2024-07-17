@@ -23,7 +23,6 @@ require (
 	github.com/openshift/cluster-logging-operator v0.0.0-20240606085930-750f369019d4 // release-5.8
 	github.com/openshift/cluster-nfd-operator v0.0.0-20240604082319-19bf50784aa7
 	github.com/openshift/cluster-node-tuning-operator v0.0.0-20240606084543-6d2e11aec345
-	github.com/openshift/hive/apis v0.0.0-20220707210052-4804c09ccc5a
 	github.com/openshift/local-storage-operator v0.0.0-20240422172451-2a80d7f6681d // release-4.16
 	github.com/openshift/machine-config-operator v0.0.1-0.20230811181556-63d7be1ef18b
 	github.com/openshift/ptp-operator v0.0.0-20240404165119-29a3d7b3d60b
@@ -55,7 +54,7 @@ require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/ajeddeloh/go-json v0.0.0-20200220154158-5ae607161559 // indirect
-	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/aws/aws-sdk-go v1.50.25 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
@@ -151,16 +150,13 @@ require (
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
 	github.com/noobaa/noobaa-operator/v5 v5.0.0-20231213124549-5d7b0417716d // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/onsi/gomega v1.33.1 // indirect
-	github.com/openshift/assisted-service v1.0.10-0.20230830164851-6573b5d7021d // indirect
-	github.com/openshift/assisted-service/api v0.0.0
-	github.com/openshift/assisted-service/models v0.0.0
+	github.com/onsi/gomega v1.33.1
 	github.com/openshift/custom-resource-status v1.1.3-0.20220503160415-f2fdb4999d87
 	github.com/openshift/elasticsearch-operator v0.0.0-20220613183908-e1648e67c298
 	github.com/openshift/library-go v0.0.0-20240419113445-f1541d628746 // indirect
 	github.com/operator-framework/operator-registry v1.41.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
-	github.com/pkg/errors v0.9.1 // indirect
+	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.19.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
@@ -179,7 +175,7 @@ require (
 	github.com/stmcginnis/gofish v0.15.0
 	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/stretchr/testify v1.9.0
-	github.com/thoas/go-funk v0.9.2 // indirect
+	github.com/thoas/go-funk v0.9.2
 	github.com/vincent-petithory/dataurl v1.0.0 // indirect
 	github.com/vmware-tanzu/velero v1.13.2
 	github.com/xlab/treeprint v1.2.0 // indirect
@@ -217,11 +213,13 @@ require (
 	sigs.k8s.io/kustomize/api v0.17.1 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.17.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
-	sigs.k8s.io/yaml v1.4.0 // indirect
+	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
 	github.com/grafana/loki/operator/apis/loki v0.0.0-20240627192641-91a34868db61
+	github.com/onsi/ginkgo v1.16.5
+	github.com/openshift-kni/eco-goinfra/pkg/schemes/assisted/models v0.0.0-00010101000000-000000000000
 	github.com/stolostron/klusterlet-addon-controller v0.0.0-20240606130554-01338045271a
 )
 
@@ -229,18 +227,20 @@ require (
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/expr-lang/expr v1.16.5 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.1 // indirect
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
+	github.com/nxadm/tail v1.4.11 // indirect
 	github.com/stolostron/cluster-lifecycle-api v0.0.0-20240109072430-f5fe6043d1f8 // indirect
 	github.com/vishvananda/netns v0.0.4 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	knative.dev/pkg v0.0.0-20240423132823-3c6badc82748 // indirect
 )
 
 replace (
 	github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
 	github.com/k8snetworkplumbingwg/sriov-network-operator => github.com/openshift/sriov-network-operator v0.0.0-20240508132640-2b61056c9758 // release-4.16
+	github.com/openshift-kni/eco-goinfra/pkg/schemes/assisted/models => ./pkg/schemes/assisted/models
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20240605153344-636e2c17106f // release-4.16
-	github.com/openshift/assisted-service/api => github.com/openshift/assisted-service/api v0.0.0-20240529165317-6b26a25e2ae7 // release-4.16
-	github.com/openshift/assisted-service/models => github.com/openshift/assisted-service/models v0.0.0-20240529165317-6b26a25e2ae7 // release-4.16
 	github.com/openshift/client-go => github.com/openshift/client-go v0.0.1
 	github.com/portworx/sched-ops => github.com/portworx/sched-ops v1.20.4-rc1
 	k8s.io/api => k8s.io/api v0.29.4
