@@ -83,14 +83,14 @@ require (
 	github.com/go-errors/errors v1.5.1 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
-	github.com/go-openapi/errors v0.20.3 // indirect
+	github.com/go-openapi/errors v0.20.3
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
 	github.com/go-openapi/loads v0.21.2 // indirect
 	github.com/go-openapi/spec v0.20.7 // indirect
-	github.com/go-openapi/strfmt v0.21.3 // indirect
-	github.com/go-openapi/swag v0.23.0 // indirect
-	github.com/go-openapi/validate v0.22.0 // indirect
+	github.com/go-openapi/strfmt v0.21.3
+	github.com/go-openapi/swag v0.23.0
+	github.com/go-openapi/validate v0.22.0
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/go-test/deep v1.1.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -131,7 +131,7 @@ require (
 	github.com/kedacore/keda/v2 v2.14.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/kube-object-storage/lib-bucket-provisioner v0.0.0-20221122204822-d1a8c34382f1 // indirect
-	github.com/lib/pq v1.10.9 // indirect
+	github.com/lib/pq v1.10.9
 	github.com/libopenstorage/secrets v0.0.0-20231011182615-5f4b25ceede1 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
@@ -198,7 +198,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/gorm v1.24.5 // indirect
+	gorm.io/gorm v1.24.5
 	k8s.io/apiserver v0.29.4 // indirect
 	k8s.io/cli-runtime v0.29.4 // indirect
 	k8s.io/component-base v0.29.4 // indirect
@@ -219,7 +219,6 @@ require (
 require (
 	github.com/grafana/loki/operator/apis/loki v0.0.0-20240627192641-91a34868db61
 	github.com/onsi/ginkgo v1.16.5
-	github.com/openshift-kni/eco-goinfra/pkg/schemes/assisted/models v0.0.0-00010101000000-000000000000
 	github.com/stolostron/klusterlet-addon-controller v0.0.0-20240606130554-01338045271a
 )
 
@@ -239,7 +238,6 @@ require (
 replace (
 	github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
 	github.com/k8snetworkplumbingwg/sriov-network-operator => github.com/openshift/sriov-network-operator v0.0.0-20240508132640-2b61056c9758 // release-4.16
-	github.com/openshift-kni/eco-goinfra/pkg/schemes/assisted/models => ./pkg/schemes/assisted/models
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20240605153344-636e2c17106f // release-4.16
 	github.com/openshift/client-go => github.com/openshift/client-go v0.0.1
 	github.com/portworx/sched-ops => github.com/portworx/sched-ops v1.20.4-rc1
